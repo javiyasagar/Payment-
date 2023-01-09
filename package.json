@@ -1,0 +1,23 @@
+{
+  "name": "payumoney_payment_gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.1",
+    "dotenv": "^11.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-joi-validation": "^5.0.1",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.195.0",
+    "winston": "^3.4.0"
+  }
+}
